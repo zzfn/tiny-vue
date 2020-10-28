@@ -5,6 +5,13 @@ export function init(Vue) {
         const vm=this
         vm.$options=options
         initState(vm)
-        console.log(options)
+        if(vm.$options.el){
+            vm.$mount(vm.$options.el)
+        }
+    }
+    Vue.prototype.$mount=function (el) {
+        const vm =this
+        el=document.querySelector(el)
+        console.log(el)
     }
 }
