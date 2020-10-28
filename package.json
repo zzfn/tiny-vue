@@ -1,0 +1,30 @@
+{
+  "name": "tiny-vue",
+  "version": "1.0.0",
+  "description": "vue 源码实现",
+  "main": "index.js",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "rollup-plugin-serve": "^1.0.4",
+    "rollup": "^2.32.1",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "rollup -c",
+    "dev": "cross-env ENV=development rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzfn/tiny-vue.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "zzfn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzfn/tiny-vue/issues"
+  },
+  "homepage": "https://github.com/zzfn/tiny-vue#readme"
+}

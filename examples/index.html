@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="vue.js"></script>
+<script>
+    let vm=new Vue({
+        el:"#app",
+        data(){
+            return{
+                name:'小红',
+                age:22,
+                address:'江苏苏州',
+                dress:{
+                    color:'#dff',
+                    price:12
+                },
+                skirt:['small','middle',{size:'large'}]
+            }
+        },
+        computed(){},
+        watch(){},
+    })
+</script>
+</body>
+</html>
